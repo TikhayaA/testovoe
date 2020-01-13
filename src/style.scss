@@ -1,0 +1,50 @@
+@import "/text-field/field";
+@import "/text-field/field-focus";
+@import "/checkbox-button";
+@import "/radio-buttons";
+@import "/checkbox-toggle";
+@import "/like-button";
+@import "/dropdown";
+@import "/subscription-text-field.scss";
+@import "/icon-block.scss";
+
+.components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &-block {
+        width: 30%;
+
+        .component-block {
+            margin: 20px 0;
+            max-width: 320px;
+            &__title {
+                font-size: 12px;
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0;
+                text-transform: uppercase;
+                &__name {                    
+                    text-transform: uppercase;
+                    color: #1F2041;
+                }
+                &__status {
+                    text-transform: uppercase;
+                    color: rgba(31, 32, 65, 0.5);
+                }
+            }
+        }
+        .component-block--half {
+            display: flex;
+            justify-content: space-between;
+            max-width: 320px;
+            div {
+                width: 90%;
+            }
+        }
+    }
+
+    
+    
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="dist/main.js"></script>
+</head>
+<body>
+    <div class="components">
+        <div class="components-block">
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">Text Field</span>
+                    <span class="component-block-title__status">Default</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="text" class="text-field" placeholder="Email">
+                </div>                 
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">Text Field</span>
+                    <span class="component-block-title__status">Hover / Focus</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="text" class="text-field-focus" value="This is pretty awesome">
+                </div>                 
+            </div> 
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">Dropdown</span>
+                    <span class="component-block-title__status">Default</span>
+                </div>  
+                <div class="component-block-content">
+                    <select name="dropdown" class="dropdown">
+                        <option value="" disabled selected>Сколько гостей</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>                 
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">masked text field</span>
+                    <span class="component-block-title__status">Default</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="text" class="text-field" placeholder="ДД.ММ.ГГГГ">
+                </div>                 
+            </div>
+            <div class="component-block--half">    
+                <div class="component-block">
+                    <div class="component-block__title">
+                        <span class="component-block-title__name">date Dropdown</span>
+                    </div>  
+                    <div class="component-block-content">
+                        <select name="dropdown" class="dropdown">
+                            <option value="" disabled selected>ДД.ММ.ГГГГ</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>                 
+                </div>  
+                <div class="component-block">
+                    <div class="component-block__title">
+                        <span class="component-block-title__name">date Dropdown</span>
+                    </div>  
+                    <div class="component-block-content">
+                        <select name="dropdown" class="dropdown">
+                            <option value="" disabled selected>19.08.2019</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>                 
+                </div> 
+            </div>  
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">filter date dropdown</span>
+                </div>  
+                <div class="component-block-content">
+                    <select name="dropdown" class="dropdown">
+                        <option value="" disabled selected>19 авг - 23 авг</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>                 
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">filter date dropdown</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="text" placeholder="Email" class="email-send">
+                </div>                 
+            </div>                
+        </div>   
+        <div class="components-block">
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">Checkbox Buttons</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="checkbox" class="checkbox-button" id="checkbox-button-label1"  >
+                    <label for="checkbox-button-label1" class="checkbox-button__label">Можно курить</label><br>
+                    <input type="checkbox" class="checkbox-button checkbox-button" id="checkbox-button-label2" checked >
+                    <label for="checkbox-button-label2" class="checkbox-button__label">Можно с питомцами</label><br>
+                    <input type="checkbox" class="checkbox-button checkbox-button" id="checkbox-button-label3" checked >
+                    <label for="checkbox-button-label3" class="checkbox-button__label">Можно пригласить гостей (до 10 человек)</label><br>
+                </div>                 
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">Radio Buttons</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="radio" class="radio-buttons" name="radio-buttons-label" id="radio-buttons-label1"  >
+                    <label for="radio-buttons-label1" class="radio-buttons__label">Мужчина</label>
+                    <input type="radio" class="radio-buttons" name="radio-buttons-label" id="radio-buttons-label2"  >
+                    <label for="radio-buttons-label2" class="radio-buttons__label">Женщина</label>
+                </div>                
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">Toggle</span>
+                </div>  
+                <div class="component-block-content">
+                    <input type="checkbox" class="checkbox__toggle" id="checkbox-toggle-label1"checked >
+                    <label for="checkbox-toggle-label1" class="checkbox__toggle__label">Получать спецпредложения</label> <br>
+                    <input type="checkbox" class="checkbox__toggle" id="checkbox-toggle-label2">
+                    <label for="checkbox-toggle-label2" class="checkbox__toggle__label">Получать спецпредложения</label>
+                </div>                
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">like button</span>
+                </div>  
+                <div class="component-block-content">
+                    <div class="like-button"><img src="dist/img/favorite_border.svg" alt="favorite_border">2</div>
+                    <div class="like-button like-button__action"><img src="dist/img/favorite_border.svg" alt="favorite_border">12</div>
+                </div>                
+            </div>
+        </div> 
+        <div class="components-block"></div> 
+    </div>
+
+    <div class="components">
+        <div class="components-block">
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">dropdown</span>
+                    <span class="component-block-title__status">Default</span>
+                </div>  
+                <div class="component-block-content">
+                    <select name="dropdown_quantity" class="dropdown dropdown_quantity">
+                        <option value="" disabled selected>2 спальни, 2 кровати...</option>
+                    </select>
+                </div>                
+            </div>
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">dropdown</span>
+                    <span class="component-block-title__status">expanded</span>
+                </div>  
+                <div class="component-block-content">
+                    <select name="dropdown_quantity" class="dropdown dropdown_quantity">
+                        <option value="" disabled selected>2 спальни, 2 кровати...</option>
+                    </select>
+                    <div class="dropdown_quantity_content">
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">спальни</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus">-</span>
+                                <input type="text" value="2">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>	
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">кровати</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus">-</span>
+                                <input type="text" value="2">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">спальни</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="0">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>		
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="components-block">
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">dropdown</span>                    
+                </div>  
+                <div class="component-block-content">
+                    <select name="dropdown_quantity" class="dropdown dropdown_quantity">
+                        <option value="" disabled selected>Сколько гостей</option>
+                    </select>
+                    <div class="dropdown_quantity_content">
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">взрослые</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>	
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">дети</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>	
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">младенцы</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="dropdown_quantity_content_btn">
+                            <!-- <div class="btn_clear">очистить</div> -->
+                            <div class="btn_confirm">применить</div>
+                        </div>			
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="components-block">
+            <div class="component-block">
+                <div class="component-block__title">
+                    <span class="component-block-title__name">dropdown</span>
+                    <span class="component-block-title__status"></span>
+                </div>  
+                <div class="component-block-content">
+                    <select name="dropdown_quantity" class="dropdown dropdown_quantity">
+                        <option value="" disabled selected>3 гостя</option>
+                    </select>
+                    <div class="dropdown_quantity_content">
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">взрослые</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>	
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">дети</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>	
+                        <div class="dropdown_quantity_content_item">
+                            <div class="dropdown_quantity_content__title">младенцы</div>
+                            <div class="dropdown_quantity_content__quantity">
+                                <span class="minus disabled">-</span>
+                                <input type="text" value="1">
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="dropdown_quantity_content_btn">
+                            <div class="btn_clear">очистить</div>
+                            <div class="btn_confirm">применить</div>
+                        </div>			
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="components">
+        <div class="component-block"> 
+            <div class="component-block-content">
+                <div class="icon_block">
+                    <div class="icon_block__image">
+                        <img src="./dist/img/insert_emoticon.svg" alt="">
+                    </div>
+                    <div class="icon_block_text">
+                        <div class="icon_block_text__title">Комфорт</div>
+                        <div class="icon_block_text__description">Шумопоглощающие стены</div>
+                    </div>	
+                </div>
+        
+                <div class="icon_block">
+                    <div class="icon_block__image">
+                        <img src="./dist/img/location_city.svg" alt="">
+                    </div>
+                    <div class="icon_block_text">
+                        <div class="icon_block_text__title">Удобство</div>
+                        <div class="icon_block_text__description">Окно в каждой из спален</div>
+                    </div>	
+                </div>
+            </div>                
+        </div>        
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.checkbox-button {
+    display: none;
+
+    &__label {
+        font-size: 14px;
+        color: rgba(31, 32, 65, 0.5);
+        vertical-align: middle;
+    }
+    &__label:before{
+        content: " ";
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: relative;
+        right: 10px;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: #FFFFFF;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        margin: 10px;
+    }  
+    &:checked + &__label:before{
+        content: "x"; 
+        border: 1px solid #BC9CFF;
+    }
+}
