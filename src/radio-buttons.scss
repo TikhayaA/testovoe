@@ -1,13 +1,13 @@
-.radio-buttons{
+.radio-buttons {
     display: none;
-
     &__label {
         font-size: 14px;
         color: rgba(31, 32, 65, 0.75);
         vertical-align: middle;
         margin-right: 10px;
+        position: relative;
     }
-    &__label:before{
+    &__label:before {
         content: "";
         width: 20px;
         height: 20px;
@@ -20,13 +20,14 @@
         border: 1px solid #BC9CFF;
         border-radius: 10px;
     }
-    &__label:after{
+    &__label:after {
         content: "";
         width: 12px;
         height: 12px;
         display: inline-block;
-        position: relative;
-        right: 83px;
+        position: absolute;
+        left: -6px;
+        top: 2px;
         text-align: center;
         vertical-align: middle;
         box-sizing: border-box;
@@ -35,8 +36,7 @@
         background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
         opacity: 0;
     }
-    &:checked + &__label:after{
+    &:checked+&__label:after {
         opacity: 1;
     }
-    
 }

@@ -1,0 +1,16 @@
+.checkbox-list {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #1F2041;
+    }
+    &-content {
+        margin-top: 20px;
+    }
+    &__arrow.active {
+        transform: rotate(180deg);
+    }
+}

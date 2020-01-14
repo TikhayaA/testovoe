@@ -1,0 +1,61 @@
+.new-review{
+
+    &_block{
+        display: flex;
+        align-items: center;
+        padding-bottom: 15px;
+        margin: 10px 0;
+        &__icon {
+            img{
+                margin-bottom: -20px;
+            }
+        
+            &__text {
+            line-height: 24px;color: #1F2041;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: Montserrat;
+            }
+        }
+        &__block_text__description {
+            color: rgba(31, 32, 65, 0.75);
+            font-size: 14px;
+            font-family: Montserrat;
+        }
+        
+        &__content{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding-bottom: 15px;
+            margin: 10px 20px;
+
+            &__like{
+                display: flex;
+                width: 40px;
+                height: 20px;
+                background: #FFFFFF;
+                border: 1px solid #BC9CFF;
+                box-sizing: border-box;
+                border-radius: 10px;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 10px;
+                color: #BC9CFF;
+                margin-right: 40px;
+                span{
+                    vertical-align: middle;
+                    margin: 3px;
+                    display: inline-block;
+                }
+                img{
+                    padding-right: 5px;
+                }
+            }
+        &__text{
+            color: rgba(31, 32, 65, 0.75);
+            font-size: 14px;
+            font-family: Montserrat;
+        }
+    }
+}

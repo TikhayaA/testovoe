@@ -7,6 +7,7 @@
         vertical-align: middle;
         display: inline-block;
         margin: 10px 0;
+        font-family: Montserrat;
     }
     &__label:before{
         content: "";
@@ -27,7 +28,7 @@
         height: 12px;
         display: inline-block;
         position: relative;
-        right: 212px;
+        right: 255px;
         top: 0px;
         text-align: center;
         vertical-align: middle;
@@ -36,7 +37,7 @@
         background: rgba(31, 32, 65, 0.25);
     }    
     &:checked + &__label:after{
-        right: 192px;
+        right: 235px;
         background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
         border: 1px solid #BC9CFF;
     }

@@ -10,6 +10,7 @@
     position: relative;
     background: url('/dist/img/expand_more.svg') no-repeat;
 	background-position: 96% center;
+	font-family: Montserrat;
 	
 	option:first-child {
 		display: none;
@@ -28,6 +29,7 @@
 		border-top-right-radius: 0;
 		padding: 13px 15px;
 		color: rgba(31, 32, 65, 0.75);
+		font-family: Montserrat;
 	}
 	&_content_item {
 		display: flex;
@@ -45,6 +47,7 @@
 		border: none;
 		text-align: center;
 		max-width: 32px;
+		
 	}
 	&_content__quantity span {
 		display: flex;
@@ -55,6 +58,7 @@
 		border: 1px solid rgba(31, 32, 65, 0.25);
 		box-sizing: border-box;
 		border-radius: 22px;
+		
 	}
 	&_content__title {
 		font-weight: bold;
@@ -62,6 +66,7 @@
 		line-height: 15px;
 		text-transform: uppercase;
 		color: #1F2041;
+		font-family: Montserrat;
 	}
 	&_content_btn {
 		display: flex;
@@ -75,6 +80,7 @@
 			text-transform: uppercase;
 			color: #BC9CFF;
 			margin-left: auto;
+			font-family: Montserrat;
 		}
 		.btn_clear {
 			font-weight: bold;
@@ -82,6 +88,7 @@
 			line-height: 15px;
 			text-transform: uppercase;
 			color: rgba(31, 32, 65, 0.5);
+			font-family: Montserrat;
 		}
 	}	
 }

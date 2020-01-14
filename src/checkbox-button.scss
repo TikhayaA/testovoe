@@ -1,12 +1,12 @@
 .checkbox-button {
     display: none;
-
     &__label {
         font-size: 14px;
         color: rgba(31, 32, 65, 0.5);
         vertical-align: middle;
+        position: relative;
     }
-    &__label:before{
+    &__label:before {
         content: " ";
         width: 20px;
         height: 20px;
@@ -20,9 +20,20 @@
         background: #FFFFFF;
         border: 1px solid rgba(31, 32, 65, 0.25);
         margin: 10px;
-    }  
-    &:checked + &__label:before{
-        content: "x"; 
+    }
+    &:checked+&__label:before {
+        content: "";
         border: 1px solid #BC9CFF;
+    }
+    &:checked+&__label:after {
+        content: " ";
+        position: absolute;
+        border: solid #BC9CFF;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 5px 3px;
+        transform: rotate(45deg);
+        left: 6px;
+        top: 2px;
     }
 }
